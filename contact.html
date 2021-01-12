@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact |Easy Relax|</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" />    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nerko+One&family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
+      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oxygen:400,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="icon" href="./Images/logo.png" />
+</head>
+<body>
+    <!-- <div class="section">
+        <section class="container section1">
+            <div class="section1__heading1">
+                Welcome To Easy Relax - Sale is Live!
+            </div>
+            <div class="section1__heading2">
+                <i class="fas fa-id-badge">contact Us</i>
+            </div>
+        </section>
+    </div> -->
+    <header>
+      <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container">
+          <img
+            src="./Images/logo.png"
+            alt="logo"
+            class="navbar__logo"
+            width="75px"
+          />
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="services.html">Our Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+            <!-- <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header End -->
+
+    <div class="text-center" id="contact__div1">
+        <h1> Contact Us!</h1>
+        <h2>We want to hear from you.</h2>
+        <p>Whether you have a problem, comment or question, we're here to help. <br>
+            You can use the form below, reach us by phone or even chat with an expert.</p>
+    </div>
+
+    <section class="say-hello">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3>How can we help you <br> Let's talk about it!</h3>
+                </div>
+                <!-- end col-12 -->
+                <div class="col-md-6">
+                    <div class="contact-box">
+                        <i class="fas fa-phone">: </i>
+                        <a href="tel:+919987654321">+91-9987654321</a>
+                    </div>
+                    <!-- end contact-box -->
+                </div>
+                <!-- end col-6 -->
+                <div class="col-md-6">
+                    <div class="contact-box">
+                        <i class="fas fa-envelope-open">: </i>
+                        <a href="mailto:info@easyrelax.co.in">info@easyrelax.co.in</a>
+                    </div>
+                    <!-- end contact-box -->
+                </div>
+                <!-- end col-6 -->
+
+                <!-- end col-12 -->
+                <div class="col-12">
+                    <form class="row inner" id="contact" name="contact" method="post" action="">
+                        <div class="form-group col-sm-6 col-12">
+                            <label><span>Your name</span></label>
+                            <input type="text" name="name" id="name" required="">
+                        </div>
+                        <!-- end form-group -->
+                        <div class="form-group col-sm-6 col-12">
+                            <label><span>Your e-mail</span></label>
+                            <input type="text" name="email" id="email" required="">
+                        </div>
+                        <!-- end form-group -->
+                        <div class="form-group col-sm-12 col-12">
+                            <label><span>Subject</span></label>
+                            <input type="text" name="subject" id="subject" required="">
+                        </div>
+                        <!-- end form-group -->
+                        <div class="form-group col-12">
+                            <label><span>Your message</span></label>
+                            <textarea name="message" id="message" required=""></textarea>
+                        </div>
+                        <!-- end form-group -->
+                        <div class="form-group col-12">
+                            <button id="submit" type="submit" name="submit">SUBMIT</button>
+                        </div>
+                        <!-- end form-group -->
+                    </form>
+                    <!-- end form -->
+                    <div id="success" class="alert alert-success" role="alert">
+                        Your message was sent successfully! We will be in touch as soon as we can.
+                    </div>
+                    <!-- end success -->
+                    <div id="error" class="alert alert-danger" role="alert">
+                        Something went wrong, try refreshing and submitting the form again.
+                    </div>
+                    <!-- end error -->
+                </div>
+                <!-- end col-12 -->
+            </div>
+            <!-- end row -->
+        </div>
+        <!-- end container -->
+    </section>
+
+
+
+    <!---------------- FOOTER STARTED ----------------->
+
+    <div class="div__blue container-fluid text-center">
+        <h5>To Know More | Contact Us</h5>
+      </div>
+  
+      <!-- Upper Footer End -->
+  
+  
+        <div class="text-center">
+          <section class="footer1 container-fluid">
+            <div class="footer1__1">
+              <i class="far fa-comments"></i>
+              <span><h3 id="section2__h3">Talk To a sleep Expert</h3><p>Email us or call +91-9987654321</p></span>
+            </div>
+            <div id="divider"><h1>|</h1></div>
+            <div class="footer1__2">
+              <i class="fas fa-map-marker-alt"></i>
+              <span><h3 id="section2__h3">Feel It for Yourself</h3><p>10 stores in Delhi & UP</p></span>
+            </div>
+          </section>
+        </div>
+  
+        <!-- Footer-1 End -->
+      <footer class="panel-footer">
+        <div class="container">
+          <div class="row">
+            <section id="aboutus" class="col-md-4 col-sm-6">
+              <span>Navigation</span><br>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="services.html">Our Services!</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+  
+  
+              
+            </section>
+            <section id="reachus" class="col-md-4 col-sm-6">
+              <span>REACH US AT</span><br>
+              <b>Easy Relax</b><br>
+              2B, 2C, New Delhi,<br>
+              Delhi, India
+              
+            </section>
+            <section id="map" class="col-md-4 col-xs-12">
+              <a href="https://goo.gl/maps/kAPcwA9LsQAi3xcX8" target="_blank">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d224346.48129412968!2d77.06889969035102!3d28.52728034389636!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x52c2b7494e204dce!2sNew%20Delhi%2C%20Delhi!5e0!3m2!1sen!2sin!4v1608183757529!5m2!1sen!2sin" width="100%" height="100%" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                <span></span>
+              </a>
+              <hr class="visible-xs">
+            </section>
+          </div>
+          <ul class="list-inline social-buttons">
+              <li class="list-inline-item grow">
+                <a href="#" target="_blank">
+                    <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="list-inline-item grow">
+                <a href="#" target="_blank">
+                    <i class="fas fa-envelope-open"></i>
+                </a>
+              </li>
+              <li class="list-inline-item grow">
+                <a href="#" target="_blank">
+                    <i class="fab fa-instagram"></i>
+                </a>
+              </li>
+          </ul>
+          <div id="copyright" class="text-center">Copyright &copy; 2020 EASY RELAX</div>
+          <div class="text-center">
+            <a href="index.html" class="navbar-collapse">
+              <img src="./Images/logo.png" alt="logo" width="85px" height="85px" style="text-align: center;"></a>
+          </div>
+        </div>
+      </footer>
+  
+  
+  
+      <script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+      ></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+  
+  </body>
+  </html>

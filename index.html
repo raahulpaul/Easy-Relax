@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home |Easy Relax|</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.gstatic.com" />    
     <link
@@ -42,26 +42,30 @@
         </section>
     </div> -->
     <header>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav class="navbar navbar-expand-md navbar-dark ">
+        <div class="container">
           <img
             src="./Images/logo.png"
             alt="logo"
             class="navbar__logo"
-            width="5%"
+            width="75px"
           />
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="services.html">Our Services</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Contact Us</a>
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
               </li>
             </ul>
             <!-- <form class="d-flex">
@@ -69,15 +73,18 @@
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form> -->
           </div>
+          </div>
       </nav>
     </header>
 
     <!-- Header End -->
 
+
+    
     <div id="banner_image">
       
       <div class="container content">
-         <div id="banner_content">
+         <!-- <div id="banner_content">
               <h1 id="main_pg"><b>Easy Relax</b>
                 </h1><br>
                 <h2>Smart Base</h2> <br>
@@ -85,7 +92,7 @@
                   Responds to Snoring, Automatically</p><br>
 
                   <button type="button" class="btn btn-primary">Learn More!</button>
-          </div>
+          </div> -->
       </div>
     </div>
 
@@ -140,7 +147,7 @@
 
     <section class="section4 container">
       <div class="section4__1">
-        <img src="Images/section4-1.jpg" alt="">
+        <img src="Images/section4-1.png" alt="">
         <span><h5 style="color: #DE006D;">Ultimate Comfort</h5><h3 id="section4__h3">Adapt® Collection</h3>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -150,11 +157,11 @@
           <p>Advanced <br>Pressure-Relieving Power</p></span>
         <span>
           <h6>Queens starting at</h6><h3><i class="fas fa-rupee-sign"></i> 2,199.00</h3>
-          <button id="section4__button" type="button" class="btn btn-primary">Grab Your Offer Now</button>
+          <button id="section4__button" type="button" class="btn btn-primary"><a href="contact.html">Your Offer Now</a></button>
         </span>
       </div>
       <div class="section4__2">
-        <img src="Images/section4-1.jpg" alt="">
+        <img src="Images/section4-1.png" alt="">
         <span><h5 style="color: #346094;">Ultimate Cooling</h5><h3 id="section4__h3">breeze° Collection</h3>
           <i class="fas fa-star"></i>
           <i class="fas fa-star"></i>
@@ -164,7 +171,7 @@
           <p>Advanced Pressure Relief <br>+ Cooling Comfort</p></span>
         <span>
           <h6>Queens starting at</h6><h3><i class="fas fa-rupee-sign"></i> 3,999.00</h3>
-          <button id="section4__button" type="button id="section4__button"" class="btn btn-primary">Grab Your Offer Now</button>
+          <button id="section4__button" type="button" class="btn btn-primary"><a href="contact.html">Your Offer Now</a></button>
         </span>
       </div>
     </section>
@@ -184,7 +191,6 @@
               <h1 id="main_pg"><b>A Pillows Like No Other</b>
                 </h1><br>
                 <p id='mainp'>This isn’t ordinary memory foam. <br> EASY RELAX® materials provide unparalleled pressure relief <br> and motion cancellation — to help you <br> fall asleep faster and stay asleep</p><br>
-                <p>Great Things Happen With Extraordinary Sleep</p>
           </div>
       </div>
     </div>
@@ -214,10 +220,23 @@
         </section>
       </div>
     </div>
-    
-    <div class="text-center"><button id="section4__button" type="button" class="btn btn-primary">Contact Us</button></div>
 
     <!-- Section 5 End -->
+
+    <div class="text-center container-fluid">
+      <div class="row section6">
+        <h3>Our Stores</h3>
+        <section id="section6__1" class="col-md-6 col-xs-12">
+          <img src="./Images/section6-1.jpg" alt="">
+        </section>
+        <section id="section6__2" class="col-md-6 col-xs-12">
+          <img src="./Images/section6-2.jpeg" alt="">
+        </section>
+        <div class="text-center"><button id="section4__button" type="button" class="btn btn-primary"><a href="contact.html">Contact Us</a></button></div>
+      </div>
+    </div>
+
+    <!-- Section 6 End -->
 
     <!---------------- FOOTER STARTED ----------------->
 
@@ -249,8 +268,9 @@
           <section id="aboutus" class="col-md-4 col-sm-6">
             <span>Navigation</span><br>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
+              <li><a href="services.html">Our Services!</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
 
 
             
